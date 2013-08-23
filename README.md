@@ -1,4 +1,0 @@
-coderwave-learn
-===============
-
-Coderwave Learn
