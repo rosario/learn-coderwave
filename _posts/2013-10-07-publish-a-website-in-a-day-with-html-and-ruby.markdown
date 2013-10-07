@@ -38,7 +38,7 @@ You've now create a folder called ``demo`` in your computer, and it's now time t
 choose *File > Open* and open the folder called ``demo`` (usually that would be in your home folder!). 
 You should see something like:
 
-<div class='center'><img src="{{ site.url }}/images/sublime-text.png" /></div>
+<div class='center'><img src="{{ site.baseurl }}/images/sublime-text.png" /></div>
 
 ## Setting up Heroku
 
@@ -149,7 +149,7 @@ of the ``index.erb`` file can be something like this:
 
 The result is the masterpiece shown in the following image: 
 
-<div class='center'><img src="{{ site.url }}/images/index-page.png" /></div>
+<div class='center'><img src="{{ site.baseurl }}/images/index-page.png" /></div>
 
 # Deploy
 
