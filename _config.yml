@@ -1,3 +1,6 @@
-markdown: rdiscount
-pygments: false
-safe: false
+# markdown: rdiscount
+# pygments: false
+# safe: false
+markdown: redcarpet
+pygments: true
+baseurl: /coderwave-learn

@@ -8,8 +8,8 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Rosario's Blog</title>
-	<meta name="description" content="Blog of a software developer living and working in europe">
+	<title>Coderwave Tutorials</title>
+	<meta name="description" content="Coderwave - Tutorials and Learning materials">
 	<meta name="author" content="">
 
 	<!-- Mobile Specific Metas
@@ -18,50 +18,26 @@
 
 	<!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="/stylesheets/pure-min.css">
-	<link rel="stylesheet" href="/stylesheets/main.css">
-	<link rel="stylesheet" href="/stylesheets/docco.css">
-	<link rel="stylesheet" href="/stylesheets/styles/googlecode.min.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/pure-min.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/main.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/docco.css">
+	<!-- <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles/googlecode.min.css"> -->
 	<!-- [if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif] -->
 
-	<link rel="shortcut icon" href="/images/favicon.ico">
-	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
+	
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-	<script src="/javascripts/highlight.pack.js"></script>
+	<script src="{{ site.baseurl }}/javascripts/highlight.pack.js"></script>
 
 
 </head>
 <body>
     <div class="pure-g-r" id="layout">
-        <div class="sidebar pure-u">
-            <header class="header">
-                <hgroup>
-                    <a href="/">
-                        <img class="profile" src="/images/profile.jpg">
-                    </a>
-                    <h1 class="brand-title">Rosario Rascuna</h1>
-                    <h2 class="brand-tagline">
-                        Maintaner of <a href="http://roundabout.io" rel="London Startups Map">Roundabout.io</a><br>
-                        Developer at <a href="http://codersumo.com" rel="Coders community">Codersumo</a><br>
-                        Teacher at <a href="http://coderwave.com" rel="Web development workshops in London">Coderwave</a><br>
-                        Twitter <a href="https://twitter.com/_sarhus">@_sarhus</a> <br>
-                        Github <a href="http://github.com/rosario">github.com/rosario</a> <br>
-                        <a href="/about.html">About me</a> <br>
-                        
-                    </h2>
-                </hgroup>
-            </header>
-            <footer class="footer">
-                    <div class="home-link">
-                        <a rel="home" href="/"> <img src="/images/home-icon.png"/> </a>
-                    </div>
-            </footer>
-        </div>
         <div class="pure-u-1">
+            <div id="logo">
+                <a href="/"><img src="/images/coderwave-colors.png"/></a>
+            </div>
             <div class="content">
                 {{ content }}
             </div>

@@ -6,6 +6,17 @@ body{
   font: 17px/1.6em Georgia;
   line-height: 27px;
   color: #050000;
+  background: #F1EFE1;
+}
+
+h1, h2, h3{font-weight: normal;}
+
+blockquote{
+  border-left: 5px solid #4d85d1;
+  background: #f5f5ff;
+  padding-left:10px;
+  padding-right:10px;
+  font-size:15px;
 }
 
 a {
@@ -38,92 +49,22 @@ img.profile {
   text-align:center;
 }
 
+p code{
+  background: #f5f5ff;
+  padding:2px;
+}
 pre, tt, code {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.5;
-  font-family: Menlo, Monaco, Consolas, "Lucida Console", monospace;
-  margin-bottom:2em;
+  font-family: Consolas, Monaco, "Lucida Console", monospace;
+  font-weight: bold;
+  margin:0px;
 }
 hr{
   border: 1px solid #eee;
   margin-top:2em;
   margin-bottom:2em;
 }
-
-/*
-.posts a{
-  text-decoration:none !important;
-}
-
-p.date{
-  font-style:italic;
-}
-
-
-h1.title{
-  margin-top:1.3em;
-  margin-bottom:0px;
-}
-
-
-
-a, a:visited {color: #CA1911;}
-  
-div.container {
-  padding-top: 0.5em;
-}
-
-nav {
-  margin-top:50px;
-  position: fixed;
-  width: 160px; 
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bold; }
-  
-#logo {
-  margin-bottom: 20px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bold;}
-  
-nav ul {
-  display:block;
-}
-
-nav ul li {
-  display: block;
-  margin-bottom: 10px;}
-nav ul li a,
-nav ul li a:visited,
-nav ul li a:active  {
-  font-size: 14px;
-  color: #CA1911;
-  text-decoration: none;
-  font-weight: bold; }
-nav ul li a:hover,
-nav ul li a:focus {
-  color: white; 
-  background: #CA1911;}
-hr.large {
-  border: none;
-  height: 8px;
-  background: #ebebeb;
-  margin: 50px 0; }
-div.doc-section {
-  margin: 30px 0; }
-
-
-
-h5.followme {
-  margin-top:1em;
-  padding:10px;
-  text-align:right;
-}
-
-p.comments{
-  padding:10px;
-  text-align:center;
-}
-*/
 
 
 /* FROM PURE CSS */
@@ -140,8 +81,16 @@ a:focus {
 
 /* LAYOUT CSS */
 #layout {
-    padding-left: 25%; /* "left col (nav + list)" width */
-    position: relative;
+    margin-left: 13%;
+    margin-right: 13%;
+    background:white;
+}
+
+#logo{
+  text-align: center;
+}
+#logo img{
+  width: 90%;
 }
 
 .sidebar {
@@ -245,9 +194,7 @@ a:focus {
     margin-left: 1em;
 }
 .post-description {
-    font-family: Georgia, "Cambria", serif;
-    color: #444;
-    line-height: 1.8em;
+ 
 }
 .post-meta {
     color: #999;
@@ -261,7 +208,9 @@ a:focus {
     color: #fff;
     background: #999;
     font-size: 80%;
-}
+}   .post-category-html {
+        background: #5aba59;
+    }
     .post-category-websockets {
         background: #5aba59;
     }
@@ -300,6 +249,9 @@ a:focus {
 }
 
 @media (max-width: 767px) {
+    #layout{
+      margin:0;
+    }
     .sidebar {
         padding-top:10px;
         width: 100%;
@@ -333,6 +285,9 @@ a:focus {
 }
 
 @media (max-width: 480px) {
+  #layout{
+    margin:0;
+  }
   hr{
   margin:0;
   }
