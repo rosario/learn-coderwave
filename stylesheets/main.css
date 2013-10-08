@@ -9,6 +9,20 @@ body{
   background: #F1EFE1;
 }
 
+
+#workshops{
+  background: #e1f4fc;
+  text-align: center;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 4px solid #1191cd;
+  margin-top: 2em;
+}
+
+#workshops h1{
+  font-size:20px;
+}
+
 h1, h2, h3{font-weight: normal;}
 
 blockquote{
@@ -180,9 +194,6 @@ a:focus {
   font-weight: 300;
 }
 
-.post {
-    padding-bottom: 2em;
-}
 .post-title {
     font-size: 2em;
     color: #222;
