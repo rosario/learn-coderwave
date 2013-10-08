@@ -3,4 +3,4 @@
 # safe: false
 markdown: redcarpet
 pygments: true
-# baseurl: /learn
+baseurl: /
