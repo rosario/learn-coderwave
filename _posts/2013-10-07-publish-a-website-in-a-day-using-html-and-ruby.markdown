@@ -192,9 +192,8 @@ that looks similar to this:
 
 # Conclusion
 
-Point your browser to the url created for you by Heroku, and it will appear. The website is now online. 
-As you've noticed, it only takes less then a hour to write some HTML and publish it online. If you'd
-like to style the page with CSS you can also do it, but it will be the topic of another post!
+Point your browser to the url created for you by Heroku. The website should be now online. 
+If you'd like to style the page with CSS you can also do it, but it will be the topic of another post!
 
 
 [sublime-text]: http://www.sublimetext.com/
