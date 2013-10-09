@@ -5,8 +5,8 @@ date:   2013-10-07 12:32:01
 categories: html ruby
 ---
 
-Here's a quick and easy tutorial using HTML, Ruby and Sinatra. The website will be hosted on Heroku.
-If you follow this guide you should be able to finish and publish a simple website in less than a day.
+Here's a quick and easy HTML and Ruby tutorial. You'll create a website using Sinatra, and it will
+be hosted on Heroku. In theory, it should take less than a day!
 
 
 Before getting started there are few things you need to install on your laptop:
