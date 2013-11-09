@@ -150,6 +150,21 @@ of the ``index.erb`` file can be something like this:
 </html>
 {% endhighlight %}
 
+# Update site.rb
+
+Update now **site.rb** with the following code:
+
+
+{% highlight ruby %}
+require 'sinatra'
+get '/' do
+  erb :index
+end
+{% endhighlight %} 
+
+You need to update this file because Sinatra needs to know the file (in our case is **index.erb**)
+you want to show.
+
 The result is the masterpiece shown in the following image: 
 
 <div class='center'><img src="{{ site.baseurl }}/images/index-page.png" /></div>
@@ -160,7 +175,7 @@ read a [Beginner's Guide to HTML and CSS][beginners-guide-html-css].
 # Deploy
 
 If you'd like to publish your website online (in technical terms: *deploy*), you only need to run few
-commands from the Termial (or Command Prompt)
+commands from the Terminal (or Command Prompt)
 
 * ``git init``: This will initialize an empty **git** repository
 * ``heroku create``: This will create your website on Heroku
@@ -168,6 +183,21 @@ commands from the Termial (or Command Prompt)
 After you've created the website (another term is *application*), you should see the url in the 
 Terminal. It will be something like ``http://cloudless-forms-1234.herokuapp.com``. This url 
 will be automatically generated for you by Heroku. 
+
+
+## Setup config.ru
+
+Heroku needs a configuration file in order to publish your website. This file is called **config.ru**:
+
+{% highlight ruby %}
+require './site'
+run Sinatra::Application
+{% endhighlight %}
+
+Save the file **config.ru** inside the *demo* folder. The first line tells Heroku where's your application
+file (in our case we've called it **site.rb**). The second line will tell Heroku that it's a Sinatra Application.
+
+
 
 ## Publish the changes
 
