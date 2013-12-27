@@ -3,7 +3,7 @@ body{
   margin:0px;
   padding:0px;
   font-weight: 500;
-  font: 17px/1.6em Georgia;
+  font: 16px/1.6em "museo-sans", Georgia;
   line-height: 27px;
   color: #050000;
   background: #F1EFE1;
@@ -42,7 +42,7 @@ h1.post-title {
   font-size: 35px;
   line-height: 40px;
   font-weight: normal;
-  font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
+  font-family: "museo-sans", "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
   color: #333;
 }
 
@@ -71,7 +71,6 @@ pre, tt, code {
   font-size: 15px;
   line-height: 1.5;
   font-family: Consolas, Monaco, "Lucida Console", monospace;
-  font-weight: bold;
   margin:0px;
 }
 hr{
@@ -187,12 +186,14 @@ a:focus {
 
 .content {
     padding: 2em 3em 0;
-    font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif; 
+    font-family: "museo-sans", "Georgia", "Times New Roman", Helvetica, Arial, sans-serif; 
+}
+.content p{
+  color:#333;
+  /*font-size: 15px;
+  line-height: 28px;*/
 }
 .content h1{line-height:1.2em;}
-.content h3{
-  font-weight: 300;
-}
 
 .post-title {
     font-size: 2em;
